@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Fusion Grill</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       <!--  <script src="https://cdn.tailwindcss.com"></script>-->
+
+        <!--<hr style = "width:50%;text-align: left;margin-left:0">-->
+    </head>
+    <body>
+        <div id = "page">
+            <div class = "container " >
+
+                <!-- need to fix the nav -->
+                <div class="nav-wrapper">
+
+                    <div class="left-side">
+                        <div class="brand">
+                            <div>Fusion Grill</div>
+                        </div>
+                    </div>
+
+                    <div class="right-side">
+                        <div class="nav-link-wrapper active-nav-link" >
+                            <!-- includes pics of store, store info, about us -->
+                            <a href="index.html">Home</a>
+                        </div>
+
+                        <div class = "nav-link-wrapper active-nav-link">
+                            <!-- menu, include despcription on what the food is-->
+                            <a href="menu.html">Menu</a>
+                        </div>
+
+                        <div class = "nav-link-wrapper active-nav-link">
+                            <!-- menu, include despcription on what the food is-->
+                            <a href="#about">About Us</a>
+                        </div>
+
+                        <div class = "nav-link-wrapper active-nav-link">
+                            <!-- menu, include despcription on what the food is-->
+                            <a href="#store-info">Store Info</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="intro-pic" data-aos = "fade-down">
+                <div class = "flex-image-container">
+                    <img src = "test1.jpg" alt = "something" class = "">
+                    <img src = "test2.jpg" alt = "something" class = "">
+                    <img src = "test3.jpg" alt = "The inside of Fusion Grill" class = "">
+                    <img src = "test4.jpg" alt = "something" class = "">
+   
+                </div>
+                <div id = "button">
+                    <a href = "menu.html" target = "_blank">
+                    <button class = "button_press">See our Menu</button>
+                    </a>
+                </div> 
+                
+            </div>
+            
+
+            
+                
+                
+
+            <div id = "about" data-aos="fade-up">
+                <h4 class = "align-center">About Us</h4>
+                <div class = "text-next-to-image">
+                    <img src = "stock.jpg" alt="Inside of a restaurant" class = "small" >
+                
+                    <p id = "restaurant-info">In the heart of Valley Springs, 
+                    as a family-owned bussiness we strive to serve the best
+                    food and service we can offer. We have been opened since 2008, and hoping for more years. </p>
+                </div>
+            </div>
+
+            <div id = "store-info"  data-aos= "fade-up" data-aos-anchor-placement = "top-bottom" data-aos-duration = "1500">
+                <h4 class = "align-center">Store Info</h4>
+                <table>
+                    <tr class = "head">
+                        <th></th>
+                        <th>Open Hours</th>
+                        <th>Address</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>Tues-Sun 11AM - 3PM; 4:30PM - 8PM<br /> <bold>(Seating stops 30 mins prior to closing)</bold></td>
+                        <td>906 Vista Del Lago Dr D, Valley Springs, CA 95252</td>
+                        <td>(209) 772-1182</td>
+                    </tr>
+                </table>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1568.4092435954747!2d-120.8389634!3d38.1676578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809086d2aeb4941b%3A0x3556705aa160eab!2sFusion%20Grill!5e0!3m2!1sen!2sus!4v1678514742372!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+
+            <div class = "bottom-bar">
+                <p id = "fginfo">Fusion Grill Valley Springs &copy; 2023</p>
+            </div>
+
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+                offset: 120, // offset (in px) from the original trigger point
+                delay: 0, // values from 0 to 3000, with step 50ms
+                duration: 1000, // values from 0 to 3000, with step 50ms
+                easing: 'ease', // default easing for AOS animations
+            });
+        </script>
+    </body>
+</html>

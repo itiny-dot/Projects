@@ -1,0 +1,239 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90%;
+
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.right-side{
+    display: flex;
+    clear: both;
+    color: black;
+    height: 30px;
+    border: 0px;
+}
+
+#page{
+    font-size: 18px;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 25px;
+    font-size: 0.em;
+}
+
+.nav-link-wrapper{
+    height: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.nav-link-wrapper:hover{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+.nav-link-wrapper a:hover{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+.active-nav-ink{
+    color: black;
+    text-decoration: none;
+}
+
+.active-nav-link a{
+    color: black;
+    text-decoration: none;
+}
+
+/*
+.nav-link-wrapper a:active{
+    color: #A9A9A9; 
+    text-decoration: none;
+}
+*/
+
+
+.intro-pic{
+    background-color: rgb(223, 223, 223);
+    min-height: 80vh;
+    padding-bottom: 0px;
+}
+
+.flex-image-container {
+    /* padding: 1rem */
+    padding-top: .4rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 90vh;
+    position: relative;
+    float: none;
+    padding-bottom: 0%;
+}
+
+/* set image each same size */
+.flex-image-container img {
+    width: 20%;
+    height: 60vh;
+    align-self:center; 
+    content: "";
+    clear: both;
+    display: flex;
+    position: relative;
+}
+
+#button{
+    text-align: center;
+    margin: auto;
+}
+
+.button_press{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0 50px;
+    height: 60px;
+    width: 270px;
+    font-size: 20px;
+    
+    /*transition: all .25s ease;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    letter-spacing: .6px;
+    border-width: 0;
+    border-style: solid;
+    transition: all .25s ease;
+    border: 1px solid black; */
+    text-align: center;
+     margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.button_press:hover{
+    opacity: 0.6
+}
+/* .pic-one{
+    max-width: 20%;
+    max-height: 20%;
+    position: relative;
+} */
+/* .left{
+    margin-left: 10em;
+} */
+
+.text-next-to-image{
+    box-sizing: border-box;
+    direction: ltr;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: auto;
+    margin-right: 100px;
+    margin-left: 150px;
+    
+}
+
+h4.align-center{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 10px auto 15px auto;
+    font-size: 30px;
+    width: 150px;
+}
+
+#about{
+    
+    padding: 200px 1px 200px 1px;
+    text-align: center;
+    position: relative;
+    /*margin: auto 150px 90px auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#restaurant-info{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin-right: auto;
+    
+}
+
+
+img.small{
+    margin: 0 0 1em;
+    margin-left: auto;
+    display: block;
+    max-width: 65%;
+    max-height: 65%;
+    padding: 20px;
+    position: relative;
+}
+
+#store-info{
+    background-image: url("mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: black;
+    background-size: 100%;
+    padding: 200px 1px 200px 1px;
+    
+}
+
+table{
+    font-size: 20px;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    padding: 5px 15px 5px 5px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+    text-align: left;
+}
+
+.bottom-bar{
+    background-color: black;
+    padding: 2px;
+    text-align: center;
+    margin: 0px;
+}
+
+#fginfo{
+    padding: 1px;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
